@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set("America/Argentina/Tucuman");
-redirect(get_real_ip());
+header("Location:".get_real_ip());
 // echo get_real_ip();
 // echo get_real_ip()." ".date("d-m-Y H:i:s");
 
